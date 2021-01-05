@@ -1,0 +1,215 @@
+/* ___________________________________________TAG Selectors___________________________________________*/
+a{
+  color: #008891;
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  font-weight:bolder;
+}
+a:hover{
+  color: #008891;
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: underline;
+  font-weight:bolder;
+}
+
+body{
+  background-color: #beebe9;
+  margin: 0px;
+  text-align: center;
+}
+
+h1{
+  color: #9be3de;
+  margin-top: 0px;
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: -2px 0 #008891, 0 2px #008891, 2px 0 #008891, 0 -2px #008891;
+}
+h2{
+  margin-top: 0px;
+  background-color: #beebe9;
+  color: #008891;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+hr{
+  height: 20px;
+  background-color: #008891;
+  border-width: 0;
+  margin-bottom: 0;
+}
+p{
+  color: #008891;
+  font-family: 'Noto Sans', sans-serif;
+}
+ul{
+  text-align: left;
+}
+
+/* ___________________________________________Class Selectors__________________________________________*/
+.top-container  /*DIV*/
+{
+  background-color: #beebe9;
+  border-bottom: solid 2px;
+  border-color: #008891;
+  margin-bottom: 0px;
+  position: relative;
+  padding-top: 100px;
+}
+.Marcia  /*Image*/
+{
+  border: solid 2px;
+  border-radius: 50%;
+  border-color: #008891;
+  height: 100px;
+  left: 200px;
+  position: absolute;
+  top: 50px;
+  width: 100px;
+}
+
+.middle-container /*DIV*/
+{
+  background-color: #008891;
+  position: relative;
+  color: #9be3de;
+  margin: 0;
+}
+
+.Marcia2 /*Image*/
+{
+  border: solid 2px;
+  border-radius: 50%;
+  border-color: #9be3de;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+  position: absolute;
+  width: 150px;
+  left: 25px;
+}
+
+.intro /*p*/
+{
+  background-color: #008891;
+  color: #9be3de;
+  height: 200px;
+  text-align: left;
+  top: 20px;
+  margin-bottom: 0px;
+}
+.intro2 /*span*/
+{
+  margin: auto;
+  left: 200px;
+  position: absolute;
+}
+
+.bottom-container */DIV*/
+{
+  background-color: #beebe9;
+  position: relative;
+  color: #008891;
+}
+
+.right /*p*/
+{
+  background-color: #beebe9;
+  color: #008891;
+  text-align: right;
+  height: 300px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 200px;
+  display: inline-block;
+}
+}
+.carreer2 /*span*/
+{
+  position: absolute;
+  right: 200px;
+}
+.work /*image*/
+{
+  border: solid 2px;
+  border-radius: 25%;
+  border-color: #9be3de;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+  position: absolute;
+  width: 150px;
+  right: 25px;
+  top: 800px;
+}
+.hobby /*span*/
+{
+  left: 200px;
+  position: absolute;
+}
+.left /*p*/
+{
+  text-align: left;
+  top: 20px;
+  height: 300px;
+}
+.star{ width:1em; height: 1em; color: #008891;}
+
+
+
+
+.topic-change
+{
+  height: 0px;
+  border-style: dotted none dotted none;
+  border-width: 20px;
+  background-color: #beebe9;
+  border-color: #008891 #008891 #9be3de #008891;
+  width: 10%;
+}
+
+
+.s1
+{
+  height: 200px;
+  display: inline-block;
+  color: #008891;
+  text-align: left;
+  vertical-align: top;
+}
+.s2
+{
+  height: 200px;
+  display: inline-block;
+  color: #008891;
+  vertical-align: top;
+}
+.s3
+{
+  width: 200px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  color: #008891;
+}
+
+/*___________________________________________ID Selectors____________________________________________*/
+#bottom-cloud
+{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#mountain{
+  position: relative;
+  bottom: -4px;
+}
+#top-cloud
+{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+#c{
+  color: #008891;
+}
